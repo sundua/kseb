@@ -5,10 +5,13 @@ Purpose of this code set
 This is primaryly an Energy bill estimator for your household power consumption.
 In my location there is no way to take Energy meter reading automatically. So only manual
 Data entry I can do. But within a few readings , say 5 or so this can predict what will 
-be the approximate Bill for 60 days.  
+be the approximate Bill for 60 days.  If I need automatic data entry then I have to put 
+additional meter with RS-424 type of Interface. But it appears KSEB is going change all meters .
+Then hopefully I can automate eneregy readings on a daily basis for this purpose.
 
-units_aug table holds the energy readins. start_id holds starting point from which bill
-is to be calculated. slab table holds rates fixed by KSEB  for various levels of 
+
+"units_aug" table holds the energy readings. "start_id " holds starting point from which bill
+is to be calculated. " slab " table holds rates fixed by KSEB  for various levels of 
 power consumption. One can tweak this to use in the respective location.
 
 ###################
