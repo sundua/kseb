@@ -8,7 +8,7 @@ Data entry I can do. But within a few readings , say 5 or so this can predict wh
 be the approximate Bill for 60 days.  
 
 units_aug table holds the energy readins. start_id holds starting point from which bill
-is to be calculated. slab table holds rates fixed by KSEB has fixed for various levels of 
+is to be calculated. slab table holds rates fixed by KSEB  for various levels of 
 power consumption. One can tweak this to use in the respective location.
 
 ###################
