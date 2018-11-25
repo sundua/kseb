@@ -1,3 +1,16 @@
+##########################
+Purpose of this code set
+##########################
+
+This is primaryly an Energy bill estimator for your household power consumption.
+In my location there is no way to take Energy meter reading automatically. So only manual
+Data entry I can do. But within a few readings , say 5 or so this can predict what will 
+be the approximate Bill for 60 days.  
+
+units_aug table holds the energy readins. start_id holds starting point from which bill
+is to be calculated. slab table holds rates fixed by KSEB has fixed for various levels of 
+power consumption. One can tweak this to use in the respective location.
+
 ###################
 What is CodeIgniter
 ###################
